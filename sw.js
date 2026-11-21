@@ -1,4 +1,4 @@
-var CACHE="nutri-v2";
+var CACHE="nutri-v3";
 var ASSETS=[
   "./",
   "index.html",
@@ -30,8 +30,26 @@ self.addEventListener("activate",function(e){
     return Promise.all(ks.map(function(k){return k===CACHE?null:caches.delete(k);}));
   }).then(function(){return self.clients.claim();}));
 });
+function fresh(req){
+  return fetch(req).then(function(res){
+    if(res&&res.status===200&&res.type==="basic"){
+      var copy=res.clone();
+      caches.open(CACHE).then(function(c){c.put(req,copy);});
+    }
+    return res;
+  });
+}
 self.addEventListener("fetch",function(e){
   if(e.request.method!=="GET")return;
+  var u=new URL(e.request.url);
+  var isDoc=e.request.mode==="navigate"||/\.(html|js|css)$/.test(u.pathname)||u.pathname==="/"||u.pathname.slice(-1)==="/";
+  if(isDoc){
+    // rede primeiro, para o material atualizar sozinho; cache como reserva offline
+    e.respondWith(fresh(e.request).catch(function(){
+      return caches.match(e.request).then(function(h){return h||caches.match("index.html");});
+    }));
+    return;
+  }
   e.respondWith(
     caches.match(e.request).then(function(hit){
       if(hit)return hit;
