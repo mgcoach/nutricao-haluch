@@ -18,7 +18,7 @@ var PARTS=[
 {n:10,c:"var(--cor)",t:"Hormônios",d:"Eixo hormonal, testosterona, estrogênio, riscos documentados, mulheres e GH. Fisiologia e riscos, sem doses.",on:true},
 {n:11,c:"var(--pro)",t:"Longevidade",d:"Envelhecimento, mTOR e IGF-1, restrição calórica e proteica, zonas azuis, jejum e o conflito com a hipertrofia.",on:true},
 {n:12,c:"var(--fib)",t:"Vitaminas e minerais",d:"Coenzimas do complexo B, metilação, vitaminas C, A, D, E e K, eletrólitos, cálcio, magnésio, ferro e hepcidina, zinco, selênio e iodo.",on:true},
-{n:13,c:"var(--pro)",t:"Aminoácidos",d:"Essenciais e não essenciais, leucina e mTOR, BCAA, EAA, glutamina, arginina, glicina, taurina e glutationa.",on:false}];
+{n:13,c:"var(--pro)",t:"Aminoácidos",d:"Essenciais e não essenciais, leucina e mTOR, BCAA e EAA, glutamina, glutationa, citrulina, colágeno e fadiga central.",on:true}];
 
 var ph=$("parts");
 PARTS.forEach(function(p){

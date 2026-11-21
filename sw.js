@@ -1,4 +1,4 @@
-var CACHE="nutri-v1";
+var CACHE="nutri-v2";
 var ASSETS=[
   "./",
   "index.html",
@@ -12,6 +12,7 @@ var ASSETS=[
   "partes/p10.html",
   "partes/p11.html",
   "partes/p12.html",
+  "partes/p13.html",
   "partes/p2.html",
   "partes/p3.html",
   "partes/p4.html",

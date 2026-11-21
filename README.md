@@ -20,7 +20,7 @@ Material de estudo que funde os livros do Dudu Haluch em um único percurso apro
 | 10 | Hormônios |
 | 11 | Longevidade |
 | 12 | Vitaminas e minerais |
-| 13 | Aminoácidos *(em produção)* |
+| 13 | Aminoácidos |
 
 ## Como funciona
 

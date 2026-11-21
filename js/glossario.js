@@ -636,3 +636,17 @@ G.push(
 ["Metalotioneína",["metalotioneína"],"Proteína induzida no intestino por zinco em dose alta. Liga-se preferencialmente ao cobre e impede sua absorção, causando carência de cobre por excesso de zinco."],
 ["Deficiência relativa de energia no esporte",["deficiência relativa de energia","tríade da mulher atleta"],"Quadro de baixa disponibilidade energética prolongada, com alteração do ciclo menstrual e queda da densidade óssea. Descrição mais ampla do que a antiga tríade da mulher atleta."]
 );
+
+G.push(
+["Cadeia lateral",["cadeia lateral"],"A única parte que difere entre os vinte aminoácidos. Define se ele é apolar, polar, ácido, básico ou sulfurado, e com isso o que ele faz."],
+["Condicionalmente essencial",["condicionalmente essencial","condicionalmente essenciais"],"Aminoácido que o corpo fabrica, mas em quantidade insuficiente em situações críticas ou de doença: arginina, glutamina, cisteína, tirosina, prolina, serina, histidina e glicina."],
+["Glicogênico e cetogênico",["glicogênico","cetogênico"],"Classificação do esqueleto de carbono. Glicogênicos podem virar glicose; apenas leucina e lisina são puramente cetogênicos."],
+["Ciclo da glicose-alanina",["ciclo da glicose-alanina","glicose-alanina"],"O músculo exporta nitrogênio como alanina; o fígado converte o esqueleto em glicose e o nitrogênio em ureia, e a glicose retorna ao músculo."],
+["GATOR1 e GATOR2",["gator1","gator2"],"Complexos que regulam a mTORC1. O GATOR1 a mantém desligada; o GATOR2, liberado pela leucina, inibe o GATOR1."],
+["Proteínas Rag",["proteínas rag","rag"],"Levam a mTORC1 à superfície do lisossomo, onde ela é ativada. Só assumem a conformação ativa quando o GATOR1 está inibido."],
+["BCKDH",["bckdh"],"Complexo desidrogenase de cetoácidos de cadeia ramificada: etapa limitante da oxidação dos BCAA no músculo. Ativada quando a energia está baixa."],
+["BCAT",["bcat"],"Aminotransferase de cadeia ramificada, abundante no músculo e escassa no fígado. É por ela que os BCAA são oxidados no próprio músculo."],
+["Glutationa",["glutationa"],"Tripeptídeo de glutamato, cisteína e glicina: o sistema antioxidante central da célula. Reciclada pela redutase com NADPH, gasta pela peroxidase, que é uma selenoproteína."],
+["Tripla hélice do colágeno",["tripla hélice","colágeno"],"Estrutura com glicina a cada três resíduos (Gli-X-Y). Só a glicina cabe no centro; a hidroxilação dependente de vitamina C a estabiliza e a lisil oxidase, dependente de cobre, faz as ligações cruzadas."],
+["Transportador de aminoácidos neutros grandes",["transportador de aminoácidos neutros"],"Via de entrada compartilhada por triptofano, tirosina e BCAA na barreira hematoencefálica. Por isso a proporção entre eles importa mais que a quantidade absoluta."]
+);
