@@ -1,4 +1,4 @@
-var CACHE="nutri-v3";
+var CACHE="nutri-v4";
 var ASSETS=[
   "./",
   "index.html",
